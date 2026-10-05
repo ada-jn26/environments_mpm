@@ -1,5 +1,5 @@
 import numpy as np
-
+from scipy.ndimage import gaussian_filter
 
 __all__ = ['rand_array', 'smooth_image','my_mat_solve']
 
