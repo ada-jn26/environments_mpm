@@ -11,3 +11,11 @@ def smooth_image(a, sigma=1):
 
 def my_mat_solve(A, b):
     return A.inv()*b
+
+def factorial_recursive(n):
+    total=1
+    if n==1:
+        return 1
+    else:
+        return factorial_recursive(n-1) * n
+    
